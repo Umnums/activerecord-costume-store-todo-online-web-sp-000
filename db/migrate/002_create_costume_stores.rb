@@ -2,7 +2,7 @@
 # Create a class and inherit from ActiveRecord::Migration
 class CreateCostumeStores < ActiveRecord::Migration[4.2]
   def change
-    create_table :costume_stores do |t|
+    create_table :costumestores do |t|
       t.string :name
       t.string :location
       t.integer :inventory
